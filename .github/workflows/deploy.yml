@@ -1,4 +1,4 @@
-name: Deploy Hexo
+﻿name: Deploy Hexo
 
 on:
   push:
@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-     - uses: actions/setup-node@v4
-       with:
-         node-version: 18
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
       - run: rm -f package-lock.json && npm install
       - run: npx hexo generate
       - uses: actions/configure-pages@v4
