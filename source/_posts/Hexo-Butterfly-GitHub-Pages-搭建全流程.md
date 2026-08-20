@@ -146,7 +146,7 @@ language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-url: https://SuperCoder07.github.io
+url: https://your-username.github.io
 ```
 
 `url` 要填你最终的 GitHub Pages 地址，格式为 `https://用户名.github.io`。
@@ -245,9 +245,9 @@ comments:
   use: Giscus
 
 giscus:
-  repo: SuperCoder07/SuperCoder07.github.io
-  repo_id: R_kgDOT-SbQg
-  category_id: DIC_kwDOT-SbQs4DDyAN
+  repo: your-username/your-username.github.io
+  repo_id: XXXX
+  category_id:XXXXX
   light_theme: light
   dark_theme: dark
 ```
@@ -279,12 +279,12 @@ type: tags
 
 ### 1. 创建仓库
 
-在 GitHub 上新建仓库，名称必须为 `用户名.github.io`（例如 `SuperCoder07.github.io`），这样才能启用用户级 Pages。仓库设为 Public。
+在 GitHub 上新建仓库，名称必须为 `用户名.github.io`（例如 `your-username.github.io`），这样才能启用用户级 Pages。仓库设为 Public。
 
 ### 2. 配置 Git 身份
 
 ```bash
-git config --global user.name "SuperCoder07"
+git config --global user.name "你的用户名"
 git config --global user.email "你的邮箱"
 ```
 
@@ -294,7 +294,7 @@ git config --global user.email "你的邮箱"
 
 ```bash
 git init
-git remote add origin https://github.com/SuperCoder07/SuperCoder07.github.io.git
+git remote add origin https://github.com/your-username/your-username7.github.io.git
 ```
 
 ## 自动部署配置
