@@ -25,9 +25,9 @@ menu:
   清单||fas fa-list:
     音乐: /music/ || fas fa-music
     电影: /movies/ || fas fa-video
- 友链: /link/ || fas fa-link
- 关于: /about/ || fas fa-heart
- 发布: /publish/ || fas fa-pen-to-square
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
+  发布: /publish/ || fas fa-pen-to-square
   编辑: /edit/ || fas fa-pen
 
 # --------------------------------------
